@@ -7,23 +7,28 @@
     padding: 0;
 
 }
-
+/*-------------cor principal-----*/
 :root{
-    --color1: #31bab5; /*cor principal*/
+    --color1: #31bab5; 
     --color2: #f2f3f5;
     --color3: #4971c3;
     --color4: #403B32;
     --color5: #c9edfa;
     --color6: #8de3e0e8;
 }
+/*-----------------------------*/
 
+
+/*-----------corpo--------------*/
 body{
     background-color: var(--color5);/*coe de fundo do corpo da pagina*/
     font-family: "Lato"; /*define a fonte*/
     height: 100vh; /*altura total da tela*/
 }
+/*-----------------------------*/
 
-/*estilização do cabeçalho*/
+
+/*------estilização do cabeçalho*/
 header{
     display: flex; /*ativa o flexbox*/
     justify-content: space-around; /*espaço entre os elementos*/
@@ -35,12 +40,15 @@ header{
     min-height: 50px; /*altura minima*/
 }
 
-/*container da imagem logo*/
+
+/*--container da imagem logo----*/
 .box-img{
     height: 100%;
 }
+/*-----------------------------*/
 
-/*menu de navegação*/
+
+/*------menu de navegação------*/
 .img-logomarca{
     max-width: 60px; /*ocupa largura maxima de 60 px*/
     height: 100%; /*ocupa 100% da altura de cabeçalho*/
@@ -64,7 +72,10 @@ nav{
     transition: .4s;
     text-decoration: underline;
 }
+/*---------------------------*/
 
+
+/*-----------botões---------*/
 .box-btn-actions{
     display: flex;
     gap: 1rem;
@@ -76,13 +87,26 @@ nav{
     width: 100px;
 }
 
+
+.btn-actions:hover{
+    background-color: var(--color6);
+    border: 1px solid var(--color6);
+}
+
 button, .link-actions{
     padding: .6rem;
     font-size: .9rem;
     border-radius: 6px;
     cursor: pointer;
     transition: .4s;
+    text-decoration: none; /* Remove sublinhado */
+    width: 200px; /* Largura fixa */
+    text-align: center; /* Centraliza texto */
 }
+/*----------------------------*/
+
+
+/*----------Sessões----------*/
 main{
     display: flex;
     flex-direction: column;
@@ -100,6 +124,7 @@ section{
     align-items: center;
     min-height: 600px;
 }
+
 
 .first-section > div{
     display: flex;
@@ -131,7 +156,7 @@ strong{
     width: 100%;
 }
 
-.second-section{
+.second-section, .fourth-section{
     background-color: var(--color6);
     display: flex;
     flex-direction: column;
@@ -182,3 +207,19 @@ strong{
     flex-wrap: wrap;
     gap: 4rem;
 }
+
+.third-section> div img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.third-section> div p{
+    max-width: 600PX;
+    color: var(--color4);
+    text-align: justify;
+}
+
+.third-section> h2{
+    text-align: center;
+}
+/*------------------------*/
