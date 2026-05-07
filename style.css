@@ -12,7 +12,7 @@
     --color1: #31bab5; 
     --color2: #f2f3f5;
     --color3: #4971c3;
-    --color4: #403B32;
+    --color4: #403B32; 
     --color5: #c9edfa;
     --color6: #8de3e0e8;
 }
@@ -222,4 +222,28 @@ strong{
 .third-section> h2{
     text-align: center;
 }
+
+#loading{
+    color: var(--color2);
+}
 /*------------------------*/
+
+footer{
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+footer> h2{
+    color: var(--color1 );
+    text-align: center;
+}
+
+footer> div{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+}
