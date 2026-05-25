@@ -22,9 +22,12 @@
 /*-----------corpo--------------*/
 body{
     background-color: var(--color5);/*coe de fundo do corpo da pagina*/
+    color: var(--color4);
+    transition: 0.4s;
     font-family: "Lato"; /*define a fonte*/
     height: 100vh; /*altura total da tela*/
 }
+
 /*-----------------------------*/
 
 
@@ -76,6 +79,7 @@ nav{
 
 
 /*-----------botões---------*/
+
 .box-btn-actions{
     display: flex;
     gap: 1rem;
@@ -105,6 +109,63 @@ button, .link-actions{
 }
 /*----------------------------*/
 
+/*-------- TemaEscuro-----------*/
+
+.tema-escuro{
+    background-color: var(--color4);
+    color: var(--color2);
+}
+
+.tema-escuro header{
+    background-color: #222;
+}
+
+.tema-escuro .second-section,
+.tema-escuro .fourth-section{
+    background-color: #333;
+}
+.tema-escuro .second-section,
+.tema-escuro .fourth-section{
+    background-color: #333;
+}
+
+.tema-escuro .btn-actions{
+    background-color: #555;
+    color: white;
+    border: 1px solid #555;
+}
+
+.tema-escuro .btn-escuro{
+    background-color: white;
+    color: black;
+}
+.btn-escuro{
+    background-color: var(--color4);
+    border: 1px solid var(--color4);
+    color: var(--color2);
+    width: 100px;
+}
+
+.btn-escuro:hover{
+    background-color: var(--color6);
+    border: 1px solid var(--color6);
+}
+
+.btn-escuro{
+
+    top: 20px;
+    right: 20px;
+    padding: .6rem;
+    font-size: .9rem;
+    position: fixed;
+    top: 120px;
+    left: 1700px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    color: var(--color2);
+    background-color: var(--color4);
+}
 
 /*----------Sessões----------*/
 main{
