@@ -153,12 +153,11 @@ button, .link-actions{
 
 .btn-escuro{
 
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 10px;
     padding: .6rem;
     font-size: .9rem;
-    position: fixed;
-    top: 120px;
+    position: absolute;
     left: 1700px;
     width: 100px;
     border-radius: 6px;
@@ -167,6 +166,47 @@ button, .link-actions{
     background-color: var(--color4);
 }
 
+.tema-escuro .first-section div h1{
+    color: white ;
+}
+
+.tema-escuro .first-section div strong{
+    color: rgb(197, 194, 194);
+}
+
+.tema-escuro .first-section div p{
+    color: white;
+}
+
+.tema-escuro .second-section ul li{
+    color:rgb(197, 194, 194) ;
+}
+
+.tema-escuro .second-section ul li:hover{
+    color: white;
+    transition: .4s;
+    cursor: default;
+}
+
+.tema-escuro  .title{
+    color: white;
+}
+
+.tema-escuro .third-section h2{
+    color: white;
+}
+
+.tema-escuro .third-section div p{
+    color: white;
+}
+
+.tema-escuro .third-section strong{
+    color: rgb(150, 147, 147);
+}
+
+.tema-escuro .third-section p u{
+    color: rgb(125, 134, 141);
+}
 /*----------Sessões----------*/
 main{
     display: flex;

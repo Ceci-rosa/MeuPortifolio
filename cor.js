@@ -7,7 +7,7 @@ switcher.addEventListener('click', function () {
     if(document.body.classList.contains('tema-escuro')){
         this.textContent = 'Claro';
     } else{
-        this.textContent = 'Escuro';
+        this.textContent = 'Escuro'; 
     }
 
-});
+}); 
